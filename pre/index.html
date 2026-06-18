@@ -1,78 +1,165 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zaive Suplementos - Suplementos Alimentares</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tavola Mangaba | Restaurante em Sao Paulo</title>
+  <meta name="description" content="Tavola Mangaba, CNPJ 65.343.718/0001-26. Restaurante localizado na Barra Funda, Sao Paulo - SP.">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <a href="https://google.com" class="logo">Zaive Suplementos</a>
-                <ul class="nav-links">
-                    <li><a href="https://google.com">Início</a></li>
-                    <li><a href="https://google.com">Sobre</a></li>
-                    <li><a href="https://google.com">Produtos</a></li>
-                    <li><a href="https://google.com">Contato</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Tavola Mangaba">
+        <strong>Tavola Mangaba</strong>
+        <span>Cozinha italiana e paraibana em Sao Paulo</span>
+      </a>
+      <nav class="nav" aria-label="Navegacao principal">
+        <a class="active" href="index.html">Inicio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Servicos</a>
+        <a href="contact.html">Contato</a>
+        <a href="privacy.html">Privacidade</a>
+        <a href="terms.html">Termos</a>
+      </nav>
+    </div>
+  </header>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Zaive Suplementos</h1>
-            <p>Qualidade e confiança para o seu dia a dia.</p>
-            <a href="https://google.com" class="btn">Saiba Mais</a>
+  <main>
+    <section class="wrap hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Empresa registrada no Brasil</span>
+        <h1>Tavola Mangaba</h1>
+        <p class="lead">Restaurante localizado na Barra Funda, em Sao Paulo, com atendimento direto ao publico e comunicacao institucional transparente.</p>
+        <div class="actions">
+          <a class="button" href="contact.html">Entrar em contato</a>
+          <a class="button secondary" href="#dados">Ver dados da empresa</a>
         </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Resumo da Tavola Mangaba">
+        <img src="assets/tavola-hero.png" alt="Mesa de restaurante com pratos servidos">
+        <div class="facts">
+          <div class="fact">
+            <span>Razao social</span>
+            <strong>Tavola Mangaba Cozinha Italiana e Paraibana LTDA</strong>
+          </div>
+          <div class="fact">
+            <span>CNPJ</span>
+            <strong>65.343.718/0001-26</strong>
+          </div>
+          <div class="fact">
+            <span>Endereco</span>
+            <strong>Rua Joaquim Manuel de Macedo, 297, Conj 101, Barra Funda, Sao Paulo - SP, 01136-010</strong>
+          </div>
+        </div>
+      </aside>
     </section>
 
-    <section class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>Excelência em Suplementos Alimentares</h2>
-                    <p>Nossa empresa se dedica a oferecer o melhor em Suplementos Alimentares, focando sempre na satisfação de nossos clientes e na qualidade superior de nossos serviços.</p>
-                    <p>Com anos de experiência no mercado, buscamos constantemente a inovação e o aprimoramento para atender às suas necessidades com eficiência e profissionalismo.</p>
-                </div>
-                <div class="about-image">
-                    <img src="images/about.jpg" alt="Sobre Nós" class="clickable-image">
-                </div>
-            </div>
+    <section id="sobre" class="band clay">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Sobre a empresa</h2>
+          <p>A Tavola Mangaba atua no setor de alimentacao, atendendo clientes interessados em refeicoes, experiencias gastronomicas e contato direto com o estabelecimento.</p>
         </div>
+        <div class="grid">
+          <article class="card accent">
+            <h3>Atendimento proprio</h3>
+            <p>A empresa oferece seus proprios servicos e responde pela qualidade, atendimento e cumprimento do que for divulgado.</p>
+          </article>
+          <article class="card green">
+            <h3>Dados visiveis</h3>
+            <p>Razao social, CNPJ, endereco, politica de privacidade, termos e canais de contato ficam disponiveis para consulta.</p>
+          </article>
+          <article class="card gold">
+            <h3>Comunicacao clara</h3>
+            <p>As informacoes institucionais e comerciais devem ser apresentadas de forma objetiva, sem promessas enganosas.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section class="specialties">
-        <div class="container">
-            <h2>Destaques</h2>
-            <div class="grid">
-                <div class="card">
-                    <img src="images/dish1.jpg" alt="Destaque 1" class="clickable-image">
-                    <h3>Qualidade Garantida</h3>
-                    <p>Trabalhamos apenas com os melhores fornecedores do mercado.</p>
-                </div>
-                <div class="card">
-                    <img src="images/dish2.jpg" alt="Destaque 2" class="clickable-image">
-                    <h3>Atendimento Especializado</h3>
-                    <p>Nossa equipe está pronta para oferecer o melhor suporte.</p>
-                </div>
-            </div>
+    <section id="servicos" class="band">
+      <div class="wrap two">
+        <div>
+          <h2>Servicos e atendimento</h2>
+          <p class="lead">O publico pode entrar em contato para obter informacoes sobre a operacao, disponibilidade, atendimento e demais assuntos relacionados ao restaurante.</p>
         </div>
+        <div class="card">
+          <ul class="list">
+            <li>Atendimento a clientes interessados em alimentacao e refeicoes.</li>
+            <li>Informacoes institucionais sobre a empresa e sua localizacao.</li>
+            <li>Canal para solicitacoes comerciais, contato e privacidade.</li>
+            <li>Responsabilidade direta sobre os servicos anunciados.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="footer-links">
-                <a href="privacy.html">Privacidade</a> | <a href="terms.html">Termos de Uso</a>
-            </div>
-            <p>&copy; 2026 Zaive Suplementos. Todos os direitos reservados.</p>
-            <p><strong>CNPJ: 64.919.183/0001-26</strong></p>
-            <p>Sumaré - SP</p>
+    <section id="dados" class="band clay">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Dados empresariais</h2>
+          <p>Informacoes usadas para identificacao da empresa, atendimento ao consumidor e verificacoes de publicidade.</p>
         </div>
-    </footer>
-    <script src="js/script.js"></script>
+        <table class="info-table">
+          <tbody>
+            <tr>
+              <th>Nome fantasia</th>
+              <td>Tavola Mangaba</td>
+            </tr>
+            <tr>
+              <th>Razao social</th>
+              <td>Tavola Mangaba Cozinha Italiana e Paraibana LTDA</td>
+            </tr>
+            <tr>
+              <th>CNPJ</th>
+              <td>65.343.718/0001-26</td>
+            </tr>
+            <tr>
+              <th>Endereco</th>
+              <td>Rua Joaquim Manuel de Macedo, 297, Conj 101, Barra Funda, Sao Paulo - SP, CEP 01136-010</td>
+            </tr>
+            <tr>
+              <th>Pais de atuacao</th>
+              <td>Brasil</td>
+            </tr>
+            <tr>
+              <th>Site</th>
+              <td>https://elitehypevault.shop/pre/</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap two">
+        <article class="card green">
+          <h2>Privacidade</h2>
+          <p>A empresa coleta apenas dados necessarios para atendimento, contato, seguranca e cumprimento de obrigacoes legais. Dados pessoais nao sao vendidos a terceiros.</p>
+          <div class="actions">
+            <a class="button secondary" href="privacy.html">Ler politica</a>
+          </div>
+        </article>
+        <article class="card accent">
+          <h2>Termos de uso</h2>
+          <p>Os termos explicam as condicoes de acesso ao site, uso adequado das informacoes, propriedade intelectual e responsabilidade dos usuarios.</p>
+          <div class="actions">
+            <a class="button secondary" href="terms.html">Ler termos</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p><strong>Tavola Mangaba Cozinha Italiana e Paraibana LTDA</strong> | CNPJ: 65.343.718/0001-26</p>
+      <p>Rua Joaquim Manuel de Macedo, 297, Conj 101, Barra Funda, Sao Paulo - SP, CEP 01136-010</p>
+      <p><a href="privacy.html">Politica de Privacidade</a> | <a href="terms.html">Termos de Uso</a> | <a href="contact.html">Contato</a></p>
+      <p class="small">Site institucional com informacoes de identificacao, atendimento, privacidade e conformidade comercial.</p>
+    </div>
+  </footer>
 </body>
 </html>
